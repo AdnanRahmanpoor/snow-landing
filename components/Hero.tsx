@@ -4,9 +4,9 @@ import { LoadReveal, OnScrollReveal } from '@/utils/motion';
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen mx-auto mb-[8rem]'>
+    <div className='w-full h-screen mx-auto mb-[8rem] max-w-[1100px]'>
       <LoadReveal>
-        <div className='flex flex-col gap-6 mt-20  w-full items-center justify-center container max-w-[1100px]  mx-auto'>
+        <div className='flex flex-col gap-6 mt-20 w-full items-center justify-center container mx-auto px-10'>
           <div className='text-6xl font-bold text-indigo-300'>Snow</div>
           <p className='text-center text-gray-500 mt-5 text-xl'>
             A white NextJS Landing Page Template

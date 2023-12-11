@@ -9,7 +9,8 @@ const Navbar = () => {
   return (
     <nav className='w-full h-[64px] bg-slate-200 backdrop-blur-2'>
       <LoadReveal>
-        <div className='w-full h-full flex flex-row justify-between	mx-auto container max-w-[1100px]'>
+        
+        <div className='w-full h-full flex flex-row justify-between	mx-auto container max-w-[1100px] px-10'>
           <Link
             href='/'
             key='logo'
