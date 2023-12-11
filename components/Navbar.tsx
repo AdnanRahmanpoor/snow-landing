@@ -4,6 +4,8 @@ import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
+ 
+
   return (
     <nav className='w-full h-[64px] bg-slate-200 backdrop-blur-2'>
       <LoadReveal>
@@ -18,6 +20,7 @@ const Navbar = () => {
           <div className='w-[500px] h-full flex flex-row items-center justify-end'>
             {NavLinks.map((links) => (
               <Link
+              
                 title={links.name}
                 key={links.name}
                 href={links.href}
